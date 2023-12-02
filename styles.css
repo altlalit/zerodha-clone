@@ -1,0 +1,13 @@
+html, body{
+    font-family: "Inter",serif;
+}
+.landingpage_heading, .landingpage_subheading{
+    color: #424242;
+    font-weight: 500;
+}
+.container{
+    text-align: center;
+}
+.landing_img{
+    margin-top: 10vh;
+}
