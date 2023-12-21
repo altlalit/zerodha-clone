@@ -7,7 +7,47 @@ html, body{
 }
 .container{
     text-align: center;
+    margin: 0 auto;
 }
-.landing_img{
-    margin-top: 10vh;
+
+
+body{
+    padding-top: 65px;
+}
+main{
+    display: block;
+}
+#header{
+    padding: 20px;
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 2px 1px 2px #eee;
+    margin: 0 auto;
+    
+}
+
+#header-logo{
+    float: left;
+    /* display: inline-block; */
+}
+
+#header-menu{
+    float: right;
+    /* display: inline-block; */
+}
+
+#header-menu > span{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+section{
+    /* justify-content: space-between; */
+    width: 1100px;
+    margin: 0 auto;
 }
